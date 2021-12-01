@@ -1,0 +1,161 @@
+.Template{
+    display: flex;
+}
+
+.Wrapper{
+    width: 90%;
+}
+
+.Sidebar{
+    width: 300px;
+    height: 100vh;
+    background-color: #2FD4AE;
+    /* background: white; */
+    box-shadow: 0 0 30px -20px #98a9bb;
+    overflow-x: hidden;
+    /* border-radius: 0 70px 70px 0; */
+    color: #F4FFF0;    
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 2em;
+}
+
+.Sidebar .Profile{
+    margin-top: 5em;
+    padding: 1em 1em;
+}
+
+.Sidebar ul {
+    padding: 0;
+    margin-top: 2em;
+}
+
+
+.Sidebar ul li{
+    /* background-color: #0A4f3e; */
+    list-style: none;
+    margin: 2em 0;
+}
+
+.Sidebar ul li a{
+    display: block;
+    color: #F4FFF0;
+    font-weight: 600;
+    padding: 1em 1em;
+    width: 100%;
+    border-radius: 70px 0 0 70px;
+}
+
+.Sidebar ul li svg{
+    /* background-color: #0A4f3e; */
+    margin-right: 1em;
+}
+
+.Sidebar .Btn{
+    padding: 1em 1em;
+    margin-top: 3em;
+}
+
+.Sidebar .Btn button{
+    width: 100%;
+    background: #2FD4AE;
+    /* background-color: #FFF; */
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F4FFF0;
+    font-family: 'ubuntu';
+    text-align: left;
+    padding: 0;
+}
+
+.Content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5em;
+}
+
+.Content h1{
+    color: #2FD4AE;
+}
+
+.Table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Table td, .Table th{
+    border: none;
+    padding: 2em 1em    ;
+}
+
+.Table tr:nth-child(even){
+    background-color: #F5F5F5;
+}
+
+.Table th {
+    padding: 2em 1em;
+    text-align: left;
+    /* background-color: #04AA6D; */
+    color: #000;
+    font-weight: 600;
+    font-size: 18px
+}
+
+.TableBtn{
+    width: 100%;
+    text-align: right;
+}
+
+.TableBtn button{
+    margin-top: 2em;
+    width: 240px;
+    height: 48px;
+    background: #2FD4AE;
+    /* background-color: #FFF; */
+    border: none;
+    font-size: 18px;
+    color: #F4FFF0;
+    font-family: 'ubuntu';
+    padding: 0;
+}
+
+
+.inputField{
+    width: 600px;
+    margin: auto;
+    background-color: #fff;
+    padding: 1em 2em;
+}
+
+.inputField form{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.inputField label{
+    margin: 0;
+    margin-top: 2em;
+}
+.inputField input{
+    width: 570px;
+    height: 48px;
+    /* background-color: #f5f5f5; */
+    border-style: hidden hidden solid hidden;
+    border-color: #787878;
+    padding: 0;
+    padding-left: 30px;
+    font-family: 'ubuntu';
+    font-size: 12px;
+}
+
+.inputField button{
+    width: 100%;
+    margin-top: 2em;
+    height: 60px;
+    background: #2FD4AE;
+    border: none;
+    font-size: 18px;
+    color: white;
+    font-family: 'ubuntu';
+}
